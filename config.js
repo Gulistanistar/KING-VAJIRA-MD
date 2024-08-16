@@ -3,7 +3,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : '94766943622';
+global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : '923308363433';
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://vajira:vajira@cluster0.hzwqrqq.mongodb.net/?retryWrites=true&w=majority" ;
 global.port= false // Math.floor(Math.random() * (9999 - 1000 + 1)) + 1000  ; 
 global.audio = '' ; 
@@ -14,17 +14,18 @@ global.email = 'botwhatsapp204@gmail.com' ;
 global.location = 'Rathnapura SriLanka' ;
 global.timezone  = process.env.TIME_ZONE || 'Asia/Colombo'
 global.gurl = 'https://youtube.com/@gamingewingyt6216' ; // add your username
-global.sudo =  process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : '94766943622'; ;
-global.devs = "923184474176"; //Dont change it From here
+global.sudo =  process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : '923308363433'; ;
+global.devs = "923308363433"; //Dont change it From here
 global.github  = process.env.YOUR_GITHUB || 'https://github.com/vajirabot1/KING-VAJIRA-MD';
 global.scan  = process.env.QR_URL || 'https://replit.com/@VajiraRathnayak/KING-VAJIRA-MD?v=1';
-global.website = 'https://github.com/vajirabot1/KING-VAJIRA-MD' ; //wa.me/+923000000000
+global.website = 'https://github.com/vajirabot1/KING-VAJIRA-MD' ; //wa.me/+923308363433
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/fb7993e24f7ecdaecbed5.jpg' ;
 module.exports = {
-  sessionName: process.env.SESSION_ID || "",      //Put Your Session Id Here
-  botname: process.env.BOT_NAME || 'ᴠᴀᴊɪʀᴀ-ᴍᴅ',
+  sessionName: process.env.SESSION_ID || "VAJIRA;;;SconeComes
+",      //Put Your Session Id Here
+  botname: process.env.BOT_NAME || 'U M A R I-ᴍ ᴅ',
   botbgm: process.env.BOT_BGM || 'false',
-  ownername:  process.env.OWNER_NAME || `It'x vajira`,
+  ownername:  process.env.OWNER_NAME || `It'x U M A R I`,
   author:  process.env.PACK_AUTHER || '',
   autovoice: process.env.AUTO_VOICE || 'true',
   errorChat : process.env.ERROR_CHAT|| '', // put 'chat' here to send error in chat ,where it accures
@@ -49,10 +50,10 @@ module.exports = {
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
   HEROKU_API_KEY: process.env.HEROKU_API_KEY,
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
-  caption :process.env.CAPTION || "```||◁ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ-ᴍᴅ▷||```",   //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption :process.env.CAPTION || "```||◁ᴘᴏᴡᴇʀᴇᴅ ʙʏ U M A R I-ᴍᴅ▷||```",   //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
   OPENAI_API_KEY: process.env.OPENAI_API_KEY ||'' ,
   VERSION: process.env.VERSION || 'v.1.2.2',
-  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : 'VAJIRA',
+  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : 'U M A R I',
   menu : process.env.MENU || '', /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Vajira-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || 'privert',
   KOYEB_API : process.env.KOYEB_API || ''
